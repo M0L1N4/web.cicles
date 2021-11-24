@@ -3,7 +3,7 @@
 * CSS file for the Mòdul Professional 04 section
 */
 
-.wrapper *{
+.justify{
 	text-align: justify;
 	text-justify: inter-word;
 }
