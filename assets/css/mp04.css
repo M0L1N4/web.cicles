@@ -5,12 +5,16 @@
 
 .wrapper *{
 	text-align: justify;
+	text-justify: inter-word;
 }
 
-table{
+table th, table td{
 	text-align: center;
+}
+table .t_legend{
+	text-align: left;
 }
 
 .formEval{
-	text-align: center;
+	margin: auto;
 }
