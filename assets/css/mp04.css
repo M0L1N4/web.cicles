@@ -2,6 +2,9 @@
 /*
 * CSS file for the Mòdul Professional 04 section
 */
+.mainTitle{
+	size:50%;
+}
 
 .toJustify{
 	text-align: justify;
