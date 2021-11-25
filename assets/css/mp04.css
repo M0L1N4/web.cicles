@@ -25,6 +25,7 @@ table .t_legend{
 }
 
 #formula{
+	font-size: 2em;
 	color: #131313;
     background-color: #e7e5e4;
     letter-spacing: .15em;
