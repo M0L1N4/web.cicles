@@ -19,9 +19,6 @@ table .t_legend{
 }
 
 .formEval{
-	width: 60%;
-	margin-bottom: 1%;
-}
-span#formEval{
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
