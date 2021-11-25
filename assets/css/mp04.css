@@ -22,6 +22,6 @@ table .t_legend{
 	width: 60%;
 	margin-bottom: 1%;
 }
-span.formEval{
+span#formEval{
 	text-align: center;
 }
