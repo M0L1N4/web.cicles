@@ -67,11 +67,9 @@ table .t_legend{
   justify-content: space-between;
 }
 
-/*
 .flex-container > li{
-  margin: 1%;
+  list-style-type: none;
 }
-*/
 
 .list-title{
   text-align: center;
