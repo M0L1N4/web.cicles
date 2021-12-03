@@ -110,35 +110,50 @@ table .t_legend{
 
 
 
-.contentSlider {
-  width: 100%;
+.slider {
+  width: 500px;
+  height: 300px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
 }
-.contentSlider,
-.contentSlider .rsOverflow,
-.contentSlider .rsSlide,
-.contentSlider .rsVideoFrameHolder,
-.contentSlider .rsThumbs {
-  background: #eee;
-  color: #000;
+.image-container {
+  width: 1500px;
+  background-color: pink;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
 }
-
-.contentSlider .rsSlide,
-.contentSlider .rsOverflow {
-  background: #eee;
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
 }
-.contentSlider h3 {
-  font-size: 24px;
-  line-height: 31px;
-  margin: 12px 0 8px;
-  font-weight: bold;
+#slide-1:target ~ .image-container {
+  left: 0px;
 }
-.contentSlider img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+#slide-2:target ~ .image-container {
+  left: -500px;
 }
-.content-slider-bg {
-  width: 86%;
-  padding: 24px 7%;
-  background: #eee;
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+.buttons {
+  position: relative;
+  top: -20px;
+}
+.buttons a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: lightgreen;
 }
