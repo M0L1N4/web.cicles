@@ -11,7 +11,8 @@
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../../assets/css/main.css" />
+		<link rel="stylesheet" href="../../assets/css/main.css">
+		<link rel="stylesheet" href="../../assets/css/carousel.css">
 		
 		<meta name="title" content="Web.Cicles">
 		<meta name="description" content="Espai web per contenir materials dels cicles formatius de la família d'informàtia i comunicacions.">
@@ -81,7 +82,7 @@
 										<li>Utilitza llenguatges de marques per a la transmissió d’informació a través del web analitzant l’estructura dels
 											documents i identificant-ne els elements.</li>
 										<li>Estableix mecanismes de validació per a documents XML utilitzant mètodes per definir-ne la sintaxi i
-											l’estructura.</li>
+											l'estructura.</li>
 									</ol>
 									<p>Per conèixer més detingudament els Critèris d'Avalulació a aplicar, continguts oficials a seguir o qualsevol altra 
 										informació relacionada amb la matèria, consultar el currículum del cicle formatiu a <a
@@ -98,6 +99,71 @@
 									<p>Començarem la matèria amb el RA2 que tractarà el llenguatge de marques per crear contingut web i modificar-lo de manera
 										que sigui més agradable a la vista per qualsevol usuari en qualsevol dispositiu.
 									</p>
+
+
+									<section class="carousel" aria-label="Gallery">
+										<ol class="carousel__viewport">
+										  <li id="carousel__slide1"
+											  tabindex="0"
+											  class="carousel__slide">
+											<div class="carousel__snapper">
+											  <a href="#carousel__slide4"
+												 class="carousel__prev">Go to last slide</a>
+											  <a href="#carousel__slide2"
+												 class="carousel__next">Go to next slide</a>
+											</div>
+										  </li>
+										  <li id="carousel__slide2"
+											  tabindex="0"
+											  class="carousel__slide">
+											<div class="carousel__snapper"></div>
+											<a href="#carousel__slide1"
+											   class="carousel__prev">Go to previous slide</a>
+											<a href="#carousel__slide3"
+											   class="carousel__next">Go to next slide</a>
+										  </li>
+										  <li id="carousel__slide3"
+											  tabindex="0"
+											  class="carousel__slide">
+											<div class="carousel__snapper"></div>
+											<a href="#carousel__slide2"
+											   class="carousel__prev">Go to previous slide</a>
+											<a href="#carousel__slide4"
+											   class="carousel__next">Go to next slide</a>
+										  </li>
+										  <li id="carousel__slide4"
+											  tabindex="0"
+											  class="carousel__slide">
+											<div class="carousel__snapper"></div>
+											<a href="#carousel__slide3"
+											   class="carousel__prev">Go to previous slide</a>
+											<a href="#carousel__slide1"
+											   class="carousel__next">Go to first slide</a>
+										  </li>
+										</ol>
+										<aside class="carousel__navigation">
+										  <ol class="carousel__navigation-list">
+											<li class="carousel__navigation-item">
+											  <a href="#carousel__slide1"
+												 class="carousel__navigation-button">Go to slide 1</a>
+											</li>
+											<li class="carousel__navigation-item">
+											  <a href="#carousel__slide2"
+												 class="carousel__navigation-button">Go to slide 2</a>
+											</li>
+											<li class="carousel__navigation-item">
+											  <a href="#carousel__slide3"
+												 class="carousel__navigation-button">Go to slide 3</a>
+											</li>
+											<li class="carousel__navigation-item">
+											  <a href="#carousel__slide4"
+												 class="carousel__navigation-button">Go to slide 4</a>
+											</li>
+										  </ol>
+										</aside>
+									  </section>
+
+
 									<section id="html-lang">
 										<h4>Una mica d'història</h4>
 										<p class="tooltip">En 1989, 
@@ -115,22 +181,9 @@
 											va proposar el desenvolupament d'un distribuït
 											sistema de gestió de la informació.
 										</p>
-										https://code-boxx.com/responsive-pure-css-text-slider/	
+										https://gscode.in/html-slideshow/
 
-										<div class="hwrap"><div class="hmove">
-											<div class="hslide">
-											  <h3>Slide 1</h3>
-											  <p>The episode orbits? The panic overwhelms a fuse. The major lurks below the shower!</p>
-											</div>
-											<div class="hslide">
-											  <h3>Slide 2</h3>
-											  <p>The lasting astronomer balances the counter reminder. The trap hires the paradox.</p>
-											</div>
-											<div class="hslide">
-											  <h3>Slide 3</h3>
-											  <p>Her birthday calculates past a juice! The envy succeeds across an evident jelly.</p>
-											</div>
-										  </div></div>
+									
 
 									</section>
 								</div>
