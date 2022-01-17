@@ -6,35 +6,32 @@
 
 /*Presentations cover*/
 .border{
+	/*Marc colorit del títol*/
 	padding: 5px;
 	background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
 	background-size: 400% 400%;
-	height: 400px;
+	height: 395%;
 	background-position: 25% 50%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 5s ease infinite;
 }
 .inner-cutout{
-	padding: 40px 0;
-	display: block;
+	/*Fons a dintre del marc del títol*/
+	padding: 10em;
 	background-color:#ff6f69;/*#ff6f69*/
 		
-	margin: 2%;
-	padding-bottom: 40px;
-	height: 300px;
+	height: 100%;
 	background: radial-gradient(#ff6f69, #ff8b87);
 	background-size: 300%;
 	background-position:50% 50%;
-
 }
 .knockout {
-	
+	/*Text a dintre del marc del títol*/
 	vertical-align: middle;
 	text-align: center;
 	font-family: 'Pacifico', cursive;
-	font-size:50pt;
-	color: blue;
-	color: #fff;
+	font-size: 5em;
+	width: 110%;
 	background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
 	background-size: 400%;
 	 -webkit-text-fill-color: transparent;
@@ -60,9 +57,23 @@
 }
 
 .main_title{
-	width: 500px;
-	height: 800px;
-	margin-left: 40%;
+	width: 45em;
+	height: 8em;
+/*	margin-left: 40%;
 	margin-right:40%;
-	margin-top: 10%;
+	margin-top: 10%;*/
+	display: flex;
+  	justify-content: center;
+}
+
+.content_text{
+	background-color:#ffad69ad;/*#ff6f69*/
+	padding: 1em;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+.content_text a>b, .content_text h4, .content_text p{
+	color: black;
 }
