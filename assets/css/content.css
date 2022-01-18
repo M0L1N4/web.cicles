@@ -68,6 +68,7 @@
 
 .content_text{
 	background-color:#ffad69ad;/*#ff6f69*/
+	
 	padding: 1em;
 	padding-right: 1.5em;
 	padding-left: 1.5em;
@@ -76,4 +77,13 @@
 }
 .content_text a>b, .content_text h4, .content_text p{
 	color: black;
+}
+.img_report{
+	text-align: center;
+}
+
+.report{
+	width: 75%;
+	height: 50%;
+	margin-top: -5%;
 }

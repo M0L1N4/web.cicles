@@ -201,7 +201,7 @@ body {
 
 .carousel::after,
 .carousel__next {
-  right: -2rem;
+  right: -1rem;
 }
 
 .carousel::before,
