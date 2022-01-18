@@ -1,0 +1,22 @@
+/******************************/
+/******* StatCounter **********/
+.statCounter{
+	width: 60%;
+	height: 40%;
+	margin-top: -5%;
+}
+#sc1{
+	fill:#76c349;
+}
+#sc2{
+	fill:#0078d3;;
+}
+#sc3{
+	fill:#d6e142;
+}
+#sc4{
+	fill:#12bdef;
+}
+.sc{
+	fill:#fff;
+}
